@@ -24,5 +24,33 @@ h1{
 }
 
 input{
-    
+    font-size: 1em;
+    padding: 15px;
+    width: 100%;
+    border: 1px solid #dadada;
+}
+
+input[type="button"]{
+    margin-top: 20px;
+    background-color: #333;
+    border: none;
+    color: #eee;
+    font-weight: 600;
+}
+
+.result{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.result p {
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+
+}
+
+.result span{
+    font-weight: 600;
 }
