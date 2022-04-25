@@ -38,6 +38,10 @@ input[type="button"]{
     font-weight: 600;
 }
 
+#genSearch{
+    background-color: #00838f;
+    margin-top: 20px;
+}
 .result{
     margin-top: 40px;
     display: flex;
