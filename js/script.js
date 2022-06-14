@@ -1,9 +1,10 @@
 // Color Genrator Function
 const colorGenerator = (color) => {
 
-    if (color)
-    displayColor(color);
-
+    if (color) {
+    displaycolor(color);
+    }
+    
     else{
         const randomColor = Math.floor(Math.random()*16777215). toString(16);
         displaycolor(randomColor);    }
